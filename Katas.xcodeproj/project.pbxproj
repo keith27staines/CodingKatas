@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		5344F13328BBFD9F00A04A78 /* Katas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5344F12A28BBFD9F00A04A78 /* Katas.framework */; };
-		5344F13828BBFD9F00A04A78 /* KatasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F13728BBFD9F00A04A78 /* KatasTests.swift */; };
+		5344F13828BBFD9F00A04A78 /* BinaryChopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F13728BBFD9F00A04A78 /* BinaryChopTests.swift */; };
 		5344F13928BBFD9F00A04A78 /* Katas.h in Headers */ = {isa = PBXBuildFile; fileRef = 5344F12D28BBFD9F00A04A78 /* Katas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5344F14328BC903400A04A78 /* DataMungerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F14228BC903400A04A78 /* DataMungerTests.swift */; };
+		5344F14528BC917200A04A78 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F14428BC917200A04A78 /* Helpers.swift */; };
+		5344F14828BC958200A04A78 /* weather.dat in Resources */ = {isa = PBXBuildFile; fileRef = 5344F14728BC958200A04A78 /* weather.dat */; };
+		5344F14A28BC958D00A04A78 /* football.dat in Resources */ = {isa = PBXBuildFile; fileRef = 5344F14928BC958D00A04A78 /* football.dat */; };
+		5344F14C28BC967800A04A78 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F14B28BC967800A04A78 /* FileReader.swift */; };
+		5344F14E28BCA22700A04A78 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F14D28BCA22700A04A78 /* Helpers.swift */; };
+		5344F15028BCA5DD00A04A78 /* Cleanser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F14F28BCA5DD00A04A78 /* Cleanser.swift */; };
+		5344F15328BCB11500A04A78 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F15228BCB11500A04A78 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +34,15 @@
 		5344F12A28BBFD9F00A04A78 /* Katas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Katas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5344F12D28BBFD9F00A04A78 /* Katas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Katas.h; sourceTree = "<group>"; };
 		5344F13228BBFD9F00A04A78 /* KatasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5344F13728BBFD9F00A04A78 /* KatasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatasTests.swift; sourceTree = "<group>"; };
+		5344F13728BBFD9F00A04A78 /* BinaryChopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryChopTests.swift; sourceTree = "<group>"; };
+		5344F14228BC903400A04A78 /* DataMungerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMungerTests.swift; sourceTree = "<group>"; };
+		5344F14428BC917200A04A78 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		5344F14728BC958200A04A78 /* weather.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weather.dat; sourceTree = "<group>"; };
+		5344F14928BC958D00A04A78 /* football.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = football.dat; sourceTree = "<group>"; };
+		5344F14B28BC967800A04A78 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		5344F14D28BCA22700A04A78 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		5344F14F28BCA5DD00A04A78 /* Cleanser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleanser.swift; sourceTree = "<group>"; };
+		5344F15228BCB11500A04A78 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +85,8 @@
 		5344F12C28BBFD9F00A04A78 /* Katas */ = {
 			isa = PBXGroup;
 			children = (
+				5344F15128BCB0CD00A04A78 /* DataMungerKata */,
+				5344F14628BC954800A04A78 /* Data */,
 				5344F12D28BBFD9F00A04A78 /* Katas.h */,
 			);
 			path = Katas;
@@ -77,9 +95,31 @@
 		5344F13628BBFD9F00A04A78 /* KatasTests */ = {
 			isa = PBXGroup;
 			children = (
-				5344F13728BBFD9F00A04A78 /* KatasTests.swift */,
+				5344F14228BC903400A04A78 /* DataMungerTests.swift */,
+				5344F13728BBFD9F00A04A78 /* BinaryChopTests.swift */,
+				5344F14428BC917200A04A78 /* Helpers.swift */,
 			);
 			path = KatasTests;
+			sourceTree = "<group>";
+		};
+		5344F14628BC954800A04A78 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5344F14928BC958D00A04A78 /* football.dat */,
+				5344F14728BC958200A04A78 /* weather.dat */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		5344F15128BCB0CD00A04A78 /* DataMungerKata */ = {
+			isa = PBXGroup;
+			children = (
+				5344F15228BCB11500A04A78 /* WeatherModel.swift */,
+				5344F14F28BCA5DD00A04A78 /* Cleanser.swift */,
+				5344F14B28BC967800A04A78 /* FileReader.swift */,
+				5344F14D28BCA22700A04A78 /* Helpers.swift */,
+			);
+			name = DataMungerKata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +184,7 @@
 				TargetAttributes = {
 					5344F12928BBFD9F00A04A78 = {
 						CreatedOnToolsVersion = 14.0;
+						LastSwiftMigration = 1400;
 					};
 					5344F13128BBFD9F00A04A78 = {
 						CreatedOnToolsVersion = 14.0;
@@ -174,6 +215,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5344F14A28BC958D00A04A78 /* football.dat in Resources */,
+				5344F14828BC958200A04A78 /* weather.dat in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5344F14C28BC967800A04A78 /* FileReader.swift in Sources */,
+				5344F15028BCA5DD00A04A78 /* Cleanser.swift in Sources */,
+				5344F15328BCB11500A04A78 /* WeatherModel.swift in Sources */,
+				5344F14E28BCA22700A04A78 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +245,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5344F13828BBFD9F00A04A78 /* KatasTests.swift in Sources */,
+				5344F13828BBFD9F00A04A78 /* BinaryChopTests.swift in Sources */,
+				5344F14528BC917200A04A78 /* Helpers.swift in Sources */,
+				5344F14328BC903400A04A78 /* DataMungerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +384,7 @@
 		5344F13D28BBFD9F00A04A78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -356,6 +406,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -363,6 +414,7 @@
 		5344F13E28BBFD9F00A04A78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -391,6 +443,7 @@
 		5344F14028BBFD9F00A04A78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5J83UZAWG;
@@ -406,6 +459,7 @@
 		5344F14128BBFD9F00A04A78 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5J83UZAWG;
