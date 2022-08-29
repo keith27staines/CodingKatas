@@ -17,7 +17,9 @@
 		5344F14C28BC967800A04A78 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F14B28BC967800A04A78 /* FileReader.swift */; };
 		5344F14E28BCA22700A04A78 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F14D28BCA22700A04A78 /* Helpers.swift */; };
 		5344F15028BCA5DD00A04A78 /* Cleanser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F14F28BCA5DD00A04A78 /* Cleanser.swift */; };
-		5344F15328BCB11500A04A78 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F15228BCB11500A04A78 /* WeatherModel.swift */; };
+		5344F15328BCB11500A04A78 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F15228BCB11500A04A78 /* Models.swift */; };
+		5344F15528BCB92600A04A78 /* MaximumDifferenceFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F15428BCB92600A04A78 /* MaximumDifferenceFinder.swift */; };
+		5344F15728BCCA3A00A04A78 /* DataMungingPerformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344F15628BCCA3A00A04A78 /* DataMungingPerformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +44,9 @@
 		5344F14B28BC967800A04A78 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 		5344F14D28BCA22700A04A78 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		5344F14F28BCA5DD00A04A78 /* Cleanser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cleanser.swift; sourceTree = "<group>"; };
-		5344F15228BCB11500A04A78 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		5344F15228BCB11500A04A78 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5344F15428BCB92600A04A78 /* MaximumDifferenceFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumDifferenceFinder.swift; sourceTree = "<group>"; };
+		5344F15628BCCA3A00A04A78 /* DataMungingPerformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMungingPerformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,10 +118,12 @@
 		5344F15128BCB0CD00A04A78 /* DataMungerKata */ = {
 			isa = PBXGroup;
 			children = (
-				5344F15228BCB11500A04A78 /* WeatherModel.swift */,
+				5344F15228BCB11500A04A78 /* Models.swift */,
 				5344F14F28BCA5DD00A04A78 /* Cleanser.swift */,
 				5344F14B28BC967800A04A78 /* FileReader.swift */,
 				5344F14D28BCA22700A04A78 /* Helpers.swift */,
+				5344F15428BCB92600A04A78 /* MaximumDifferenceFinder.swift */,
+				5344F15628BCCA3A00A04A78 /* DataMungingPerformer.swift */,
 			);
 			name = DataMungerKata;
 			sourceTree = "<group>";
@@ -234,9 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5344F15728BCCA3A00A04A78 /* DataMungingPerformer.swift in Sources */,
 				5344F14C28BC967800A04A78 /* FileReader.swift in Sources */,
 				5344F15028BCA5DD00A04A78 /* Cleanser.swift in Sources */,
-				5344F15328BCB11500A04A78 /* WeatherModel.swift in Sources */,
+				5344F15328BCB11500A04A78 /* Models.swift in Sources */,
+				5344F15528BCB92600A04A78 /* MaximumDifferenceFinder.swift in Sources */,
 				5344F14E28BCA22700A04A78 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
